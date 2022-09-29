@@ -24,7 +24,7 @@ Run the following:
 
 `npm i`
 
-`npm install inquirer
+`npm install inquirer`
 
 `npm install dotenv`
 
