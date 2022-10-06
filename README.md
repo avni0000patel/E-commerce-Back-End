@@ -1,9 +1,9 @@
 # E-commerce-Back-End
-In this project I have built the back end for an e-commerce site. This application uses Sequelize to interact with a MySQL database. Since e-commerce is the largest sector of the electronics industry, it is important to understand how to build e-commerce sites.
+In this project I have built a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. This application uses MongoDB due to its popularity in social networks and due to its speed with large amounts of data and flexibility with unstructured data. 
 ## GitHub Link
 https://github.com/avni0000patel
 ## Walkthrough Video Link
-https://drive.google.com/file/d/19ye1FtOGOeIMjwRW6CdGy3W_A1tgoKb4/view
+https://drive.google.com/file/d/1evWgFtzAJtqEb5efhb3KyitQYS-mFzBD/view
 ## Technologies Used
 Javascript - creates a dynamic and interactive experience for the user
 
@@ -11,11 +11,11 @@ Node JS - back-end JavaScript runtime environment that runs on a JavaScript Engi
 
 Express - the most popular Node web framework that makes it easy to work with routes
 
-MySQL - stores information in separate tables and connects with keys
+Moment - a JavaScript date library for parsing, validating, manipulating, and formatting dates
 
-Sequelize - a Node js based object relational mapper that makes it easy to work with MySQL
+Mongoose - a MongoDB object modeling tool designed to work in an asynchronous environment
 
-Dotenv - reads key value pairs from a .env file and can set them as environment variables
+Nodemon - a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 
 ## Instructions
 Run the following:
@@ -24,20 +24,14 @@ Run the following:
 
 `npm i`
 
-`npm install inquirer`
-
-`npm install dotenv`
-
 `npm install express`
 
-`npm install mysql2`
+`npm install moment`
 
-`npm install sequelize`
+`npm install mongoose`
 
-`npm install --save-dev nodemon`
+`npm install nodemon`
 
-`node server.js`
+`node index.js`
 
-`nodemon server.js`
-
-`node seeds/index.js`
+`nodemon index.js`
